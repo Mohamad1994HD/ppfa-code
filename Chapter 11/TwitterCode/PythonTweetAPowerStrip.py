@@ -12,9 +12,9 @@ import threading
 import paho.mqtt.client as mq
 
 api = twitter.Api(consumer_key='ElrWuAImGZNoBy6WiSHVOXe7X',
-                  consumer_sret='N7SWj2hiVLMRLKs0NIw9JxDPlvJ05TzJ5CndtVofyCW908Sl3a',
+                  consumer_secret='N7SWj2hiVLMRLKs0NIw9JxDPlvJ05TzJ5CndtVofyCW908Sl3a',
                   access_token_key='2806636166-2NdgLd2is06uxxaCweuSgPd0Vnn9PZnwJ383kI5',
-                  access_secret='mAVkd1swPcXwLleUOaWIBWN38TYwzngjwcm9zZWx4488w')
+                  access_token_secret='mAVkd1swPcXwLleUOaWIBWN38TYwzngjwcm9zZWx4488w')
 
 
 def onMessage(mosq, obj, msg):
